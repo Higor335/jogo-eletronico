@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="generos">
+        <item>Tiro</item>
+        <item>Ação</item>
+        <item>Luta</item>
+        <item>Soulslike</item>
+        <item>Terror</item>
+    </string-array>
+
+    <string-array name="plataforma">
+        <item>PC</item>
+        <item>Playstatio 4</item>
+        <item>Xbox One</item>
+        <item>Nintendo</item>
+    </string-array>
+</resources>
