@@ -32,17 +32,17 @@ public class JanelaDois extends AppCompatActivity {
 
     private void preencherCampos() {
         Intent intent = getIntent();
-        if(intent.hasExtra("pessoa")) {
-            Pessoa pessoa;
+        if(intent.hasExtra("jogo")) {
+            Jogo jogo;
 
             //Casting
-            pessoa = (Pessoa) intent.getSerializableExtra("pessoa");
-            tvTitulo.setText(pessoa.getTitulo());
-            tvGenero.setText(pessoa.getGenero());
-            tvPlataforma.setText(pessoa.getPlataforma());
-            tvModos.setText(pessoa.getModos());
-            tvProdutora.setText(pessoa.getProdutora());
-            tvLancamento.setText(pessoa.getLancamento());
+            jogo = (Jogo) intent.getSerializableExtra("jogo");
+            tvTitulo.setText(jogo.getTitulo());
+            tvGenero.setText(jogo.getGenero());
+            tvPlataforma.setText(jogo.getPlataforma());
+            tvModos.setText(jogo.getModos());
+            tvProdutora.setText(jogo.getProdutora());
+            tvLancamento.setText(jogo.getLancamento());
         }
     }
 
