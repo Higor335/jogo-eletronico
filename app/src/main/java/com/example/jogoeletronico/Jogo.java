@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class Jogo implements Serializable {
 
-    private String titulo, genero, plataforma, modos, produtora, lancamento;
+    private String titulo, genero, plataforma, modos, produtora, lancamento, imagem;
 
     public String getTitulo() {
         return titulo;
@@ -53,4 +53,13 @@ public class Jogo implements Serializable {
     public void setLancamento(String lancamento) {
         this.lancamento = lancamento;
     }
+
+    public void setImg(String imag){
+        this.imagem = imag;
+    }
+
+    public String getImagem(){
+        return imagem;
+    }
+
 }

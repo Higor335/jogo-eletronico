@@ -14,6 +14,7 @@ import org.w3c.dom.Text;
 public class JanelaDois extends AppCompatActivity {
 
     private TextView tvTitulo, tvGenero, tvPlataforma, tvModos, tvProdutora, tvLancamento;
+    ImageView img;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,8 @@ public class JanelaDois extends AppCompatActivity {
         tvModos = (TextView) findViewById(R.id.tvModoResul);
         tvProdutora = (TextView) findViewById(R.id.tvProdutoraResul);
         tvLancamento = (TextView) findViewById(R.id.tvLancamentoResul);
+        img = (ImageView) findViewById(R.id.ivImagem);
+
 
         preencherCampos();
     }
@@ -43,6 +46,7 @@ public class JanelaDois extends AppCompatActivity {
             tvModos.setText(jogo.getModos());
             tvProdutora.setText(jogo.getProdutora());
             tvLancamento.setText(jogo.getLancamento());
+            img.setImageResource(R.drawable.fortnite);
         }
     }
 

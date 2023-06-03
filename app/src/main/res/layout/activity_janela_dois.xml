@@ -21,14 +21,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/titulo"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/tvTituloResul"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TextView"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
         </TableRow>
 
         <TableRow
@@ -41,14 +41,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/genero"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/tvGeneroResul"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TextView"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
         </TableRow>
 
         <TableRow
@@ -61,14 +61,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/plataforma"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/tvPlataformaResul"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TextView"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
         </TableRow>
 
         <TableRow
@@ -81,14 +81,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/modos"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/tvModoResul"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TextView"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
         </TableRow>
 
         <TableRow
@@ -101,14 +101,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/produtora"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/tvProdutoraResul"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TextView"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
         </TableRow>
 
         <TableRow
@@ -121,14 +121,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/lancamento"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
 
             <TextView
                 android:id="@+id/tvLancamentoResul"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="TextView"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
         </TableRow>
 
         <TableRow
@@ -157,7 +157,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:onClick="fechar"
-                android:text="@string/sair" />
+                android:text="@string/voltar" />
         </TableRow>
     </TableLayout>
 
